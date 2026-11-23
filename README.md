@@ -1,22 +1,7 @@
-<!--
-**Predators972/Predators972** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 ## 👋 About Me
 
 Apprentice Embedded Systems Engineer.  
-Currently working on **RISC-V**, **FPGA development**, **embedded C**, and **electronic systems design**.
+Currently working on **digital communications**, **software-defined radio** (Python), and **C++ application development**.
 
 ### 📫 Contact
 
@@ -30,24 +15,32 @@ Currently working on **RISC-V**, **FPGA development**, **embedded C**, and **ele
 ## Project
 
 ### 🚀 Current Project
+ 
+**[Multi-carrier CSS transmission](https://github.com/Predators972/css-multiporteuse)** (Python)
+- Chirp Spread Spectrum, the modulation behind LoRa, on 4 sub-carriers
+- Python simulation of the full chain: modulation, noisy channel, demodulation, BER
+- Implementation on software-defined radio (ADALM-PLUTO, 868 MHz)
 
-- RISC-V FPGA development using VHDL and C
-- Hardware/software co-design on FPGA platforms
-- Performance analysis and embedded benchmarking
+**Chess game** (C++)
+- Game logic: board, piece moves and rules
+- Graphical interface to play
 
 ### 📌 Main Projects
-
-1) FPGA video game on RISC-V architecture (VHDL + C)
-2) STM32 + FreeRTOS industrial palletizer controller
-3) Digital filtering on PIC microcontroller
-4) Multifunction embedded sonar with Bluetooth
-5) Connected air quality monitoring system
+ 
+1) [Passenger counting supervision tool for the TaM bus and tram network](https://github.com/Predators972/passenger-counting-supervision) (Python & FastAPI & PostgreSQL)
+2) [Signal processing and voice recognition on a RISC-V processor on FPGA](https://github.com/Predators972/NEORV32_VC709) (NEORV32, VHDL & C)
+3) FPGA video game on RISC-V architecture (VHDL & C)
+4) Industrial palletizer controller with a real-time OS (STM32 + FreeRTOS, C)
+5) First-order digital filtering of sensor data (PIC microcontroller, C & assembly)
+6) Embedded sonar with OLED display and Bluetooth (PIC microcontroller, C)
+7) Connected air quality monitoring system (NRF modules & I2C & Grafana, C)
 
 ## Tech Stack
 
 ### 💻 Programming & Embedded
 
 [![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C++](https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B)
 [![VHDL](https://img.shields.io/badge/VHDL-543978?style=for-the-badge)](https://en.wikipedia.org/wiki/VHDL)
 [![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=for-the-badge)](https://www.freertos.org/)
 [![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)](https://www.st.com/)
